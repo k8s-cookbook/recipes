@@ -1,0 +1,7 @@
+apiVersion: example.com/v1
+kind:       Function
+metadata:
+  name:     myfaas
+spec:
+  code:     "http://src.example.com/myfaas.js"
+  ram:      100Mi

@@ -1,0 +1,18 @@
+apiVersion:       extensions/v1beta1
+kind:             Deployment
+metadata:
+  name:           unhappy
+spec:
+  replicas:       1
+  template:
+    metadata:
+      labels:
+        app:      nevermind
+    spec:
+      containers:
+      - name:     shell
+        image:    busybox
+        command:
+        - "sh"
+        - "-c"
+        - "echo I will just print something here and then exit"

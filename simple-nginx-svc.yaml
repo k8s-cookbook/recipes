@@ -1,0 +1,9 @@
+kind:       Service
+apiVersion: v1
+metadata:
+  name:     webserver
+spec:
+  ports:
+  - port:   80
+  selector:
+    app:    nginx

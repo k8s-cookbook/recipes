@@ -1,0 +1,15 @@
+kind:                                     Ingress
+apiVersion:                               extensions/v1beta1
+metadata:
+  name:                                   nginx-public
+  annotations:
+    ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host:
+    http:
+      paths:
+      - path:                             /web
+        backend:
+          serviceName:                    nginx
+          servicePort:                    80

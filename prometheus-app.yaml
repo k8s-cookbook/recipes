@@ -1,0 +1,66 @@
+kind:                                     Deployment
+apiVersion:                               extensions/v1beta1
+metadata:
+  name:                                   prom
+  namespace:                              default
+  labels:
+    app:                                  prom
+spec:
+  replicas:                               1
+  selector:
+    matchLabels:
+      app:                                prom
+  template:
+    metadata:
+      name:                               prom
+      labels:
+        app:                              prom
+    spec:
+      serviceAccount:                     prometheus
+      containers:
+      - name:                             prom
+        image:                            prom/prometheus
+        imagePullPolicy:                  Always
+        volumeMounts:
+        - name:                           prometheus-volume-1
+          mountPath:                      "/prometheus"
+        - name:                           prom-config-volume
+          mountPath:                      "/etc/prometheus/"
+      volumes:
+      - name:                             prometheus-volume-1
+        emptyDir:                         {}
+      - name:                             prom-config-volume
+        configMap:
+          name:                           prom-config-cm
+          defaultMode:                    420
+---
+kind:                                     Service
+apiVersion:                               v1
+metadata:
+  name:                                   prom-svc
+  labels:
+    app:                                  prom
+spec:
+  ports:
+  - port:                                 80
+    targetPort:                           9090
+  selector:
+    app:                                  prom
+  type:                                   LoadBalancer
+  externalTrafficPolicy:                  Cluster
+---
+kind:                                     Ingress
+apiVersion:                               extensions/v1beta1
+metadata:
+  name:                                   prom-public
+  annotations:
+    ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host:
+    http:
+      paths:
+      - path:                             /
+        backend:
+          serviceName:                    prom-svc
+          servicePort:                    80

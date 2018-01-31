@@ -1,0 +1,13 @@
+kind:        RoleBinding
+apiVersion:  rbac.authorization.k8s.io/v1beta1
+metadata:
+  name:      podreaderbinding
+  namespace: sec
+roleRef:
+  apiGroup:  rbac.authorization.k8s.io
+  kind:      Role
+  name:      podreader
+subjects:
+- kind:      ServiceAccount
+  name:      myappsa
+  namespace: sec
