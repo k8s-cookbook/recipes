@@ -119,7 +119,7 @@ This is the place where we provide the manifests, scripts, configuration files a
 - 12.2 Removing a Pod From a Service
 - 12.3 Access a ClusterIP Service Outside the Cluster
 - 12.4 Understanding And Parsing Resource Statuses
-- 12.5 Debugging Pods
+- **12.5 Debugging Pods**
 - 12.6 Getting A Detailed Snapshot Of The Cluster State
 - 12.7 Adding Kubernetes Worker Nodes
 - 12.8 Draining Kubernetes Nodes For Maintenance
