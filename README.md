@@ -94,10 +94,10 @@ This is the place where we provide the manifests, scripts, configuration files a
 
 [Go to resources …](ch10/)
 
-- 10.1 Providing A Unique Identity For An Application
+- **10.1 Providing A Unique Identity For An Application**
 - 10.2 Listing And Viewing Access Control Information
-- 10.3 Controlling Access To Resources
-- 10.4 Securing Pods
+- **10.3 Controlling Access To Resources**
+- **10.4 Securing Pods**
 
 ### 11. Monitoring and Logging
 
