@@ -46,7 +46,7 @@ This is the place where we provide the manifests, scripts, configuration files a
 - 5.2 Verifying the DNS Entry of a Service
 - **5.3 Changing The Type of a Service**
 - 5.4 Deploy An Ingress Controller on Minikube
-- 5.5 Making Services Accessible From Outside The Cluster
+- **5.5 Making Services Accessible From Outside The Cluster**
 
 ### 6. Exploring the Kubernetes API and Key Metadata
 
