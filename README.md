@@ -1,4 +1,4 @@
-This is the place where we provide the recipes and manifests of the [Kubernetes Cookbook](http://shop.oreilly.com/product/0636920064947.do), organized along its 14 chapters.
+This is the place where we provide the recipes and manifests used in the [Kubernetes Cookbook](http://shop.oreilly.com/product/0636920064947.do), organized along its 14 chapters.
 
 ### 1. Getting Started With Kubernetes
 
