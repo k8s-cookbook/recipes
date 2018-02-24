@@ -1,0 +1,9 @@
+apiVersion: v1
+kind:
+metadata:
+name:       spec:
+Pod oreilly
+containers:
+- name:
+           oreilly
+image:      nginx
