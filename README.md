@@ -33,9 +33,9 @@ This is the place where we provide the recipes and manifests used in the [Kubern
 [Go to resources …](ch04/)
 
 - 4.1 Creating A Deployment Using `kubectl run`
-- 4.2 Creating Objects From File Manifests
-- 4.3 Writing A Pod Manifest From Scratch
-- 4.4 Launching Deployment Using A Manifest
+- **4.2 Creating Objects From File Manifests**
+- **4.3 Writing A Pod Manifest From Scratch**
+- **4.4 Launching Deployment Using A Manifest**
 - 4.5 Updating A Deployment
 
 ### 5. Working With Services
