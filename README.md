@@ -64,11 +64,11 @@ This is the place where we provide the manifests, scripts, configuration files a
 
 [Go to resources …](ch07/)
 
-- 7.1 Running A Batch Job
-- 7.2 Running a Task on a Schedule Within a Pod
-- 7.3 Running Infrastructure Daemons Per Node
-- 7.4 Managing Stateful and Leader-Follower Apps
-- 7.5 Influencing Pods Startup Behavior
+- **7.1 Running A Batch Job**
+- **7.2 Running a Task on a Schedule Within a Pod**
+- **7.3 Running Infrastructure Daemons Per Node**
+- **7.4 Managing Stateful and Leader-Follower Apps**
+- **7.5 Influencing Pods Startup Behavior**
 
 ### 8. Volumes and Configuration Data
 
