@@ -131,8 +131,8 @@ This is the place where we provide the manifests, scripts, configuration files a
 
 - 13.1 Compiling From Source
 - 13.2 Compiling A Specific Component
-- 13.3 Using A Python Client To Interact With The Kubernetes API
-- 13.4 Extending The API Using Custom Resource Definitions (CRD)
+- **13.3 Using A Python Client To Interact With The Kubernetes API**
+- **13.4 Extending The API Using Custom Resource Definitions (CRD)**
 
 ### 14. Ecosystem
 
