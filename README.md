@@ -45,7 +45,7 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 6.2 Understanding The Structure Of A Kubernetes Manifest
 6.3 Creating Namespaces To Avoid Name Collisions
 6.4 Setting Quotas Within A Namespace
-6.5 Labeling An Object
+6.5 Labelling An Object
 6.6 Using Labels For Queries
 6.7 Annotating a Resource With One Command
 
@@ -56,7 +56,7 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 7.4 Managing Stateful and Leader-Follower Apps
 7.5 Influencing Pods Startup Behavior
 
-8. Volumes and Confguration Data
+8. Volumes and Configuration Data
 8.1 Exchanging Data Between Containers Via A Local Volume
 8.2 Passing An API Access Key To A Pod Using A Secret
 8.3 Providing Configuration Data To An Application
@@ -96,7 +96,7 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 12.8 Draining Kubernetes Nodes For Maintenance
 12.9 Managing etcd
 
-Developing Kubernetes
+13. Developing Kubernetes
 13.1 Compiling From Source
 13.2 Compiling A Specific Component
 13.3 Using A Python Client To Interact With The Kubernetes API
