@@ -40,9 +40,11 @@ This is the place where we provide the manifests, scripts, configuration files a
 
 ### 5. Working With Services
 
+[Go to resources …](ch05/)
+
 - 5.1 Creating A Service To Expose Your Application
 - 5.2 Verifying the DNS Entry of a Service
-- 5.3 Changing The Type of a Service
+- **5.3 Changing The Type of a Service**
 - 5.4 Deploy An Ingress Controller on Minikube
 - 5.5 Making Services Accessible From Outside The Cluster
 
