@@ -3,7 +3,7 @@ This is the place where we provide the recipes and manifests used in the [Kubern
 ### 1. Getting Started With Kubernetes
 
 - 1.1 Using Kubernetes Without Installation
-- 1.2 Installing the Kubernetes CLI kubectl
+- 1.2 Installing the Kubernetes CLI `kubectl`
 - 1.3 Installing Minikube To Run A Local Kubernetes Instance
 - 1.4 Using Minikube Locally for Development
 - 1.5 Starting your First Application on Minikube
@@ -11,8 +11,8 @@ This is the place where we provide the recipes and manifests used in the [Kubern
 
 ### 2. Creating a Kubernetes Cluster
 
-- 2.1 Installing kubeadm To Create A Kubernetes Cluster
-- 2.2 Bootstrapping A Kubernetes Cluster Using kubeadm
+- 2.1 Installing `kubeadm` To Create A Kubernetes Cluster
+- 2.2 Bootstrapping A Kubernetes Cluster Using `kubeadm`
 - 2.3 Downloading A Kubernetes Release From GitHub
 - 2.4 Downloading Client And Server Binaries
 - 2.5 Using Hyperkube Image To Run A Kubernetes Master Node With Docker
@@ -24,13 +24,15 @@ This is the place where we provide the recipes and manifests used in the [Kubern
 
 - 3.1 Listing Resources
 - 3.2 Deleting Resources
-- 3.3 Watching Resource Changes With kubectl
-- 3.4 Editing Resources With kubectl
-- 3.5 Letting kubectl Explain Resources And Fields
+- 3.3 Watching Resource Changes With `kubectl`
+- 3.4 Editing Resources With `kubectl`
+- 3.5 Letting `kubectl` Explain Resources And Fields
 
 ### 4. Creating and Modifying Fundamental Workloads
 
-- 4.1 Creating A Deployment Using kubectl run
+[Go to resources](ch04/)
+
+- 4.1 Creating A Deployment Using `kubectl run`
 - 4.2 Creating Objects From File Manifests
 - 4.3 Writing A Pod Manifest From Scratch
 - 4.4 Launching Deployment Using A Manifest
@@ -97,7 +99,7 @@ This is the place where we provide the recipes and manifests used in the [Kubern
 
 ### 12. Maintenance And Troubleshooting
 
-- 12.1 Enabling Autocomplete For kubectl
+- 12.1 Enabling Autocomplete For `kubectl`
 - 12.2 Removing a Pod From a Service
 - 12.3 Access a ClusterIP Service Outside the Cluster
 - 12.4 Understanding And Parsing Resource Statuses
@@ -105,7 +107,7 @@ This is the place where we provide the recipes and manifests used in the [Kubern
 - 12.6 Getting A Detailed Snapshot Of The Cluster State
 - 12.7 Adding Kubernetes Worker Nodes
 - 12.8 Draining Kubernetes Nodes For Maintenance
-- 12.9 Managing etcd
+- 12.9 Managing `etcd`
 
 ### 13. Developing Kubernetes
 
@@ -120,6 +122,6 @@ This is the place where we provide the recipes and manifests used in the [Kubern
 - 14.2 Using Helm to Install Applications
 - 14.3 Creating Your Own Chart To Package Your Application with Helm
 - 14.4 Converting Your Docker Compose Files To Kubernetes Manifests
-- 14.5 Creating A Kubernetes Cluster With kubicorn
+- 14.5 Creating A Kubernetes Cluster With `kubicorn`
 - 14.6 Storing Encrypted Secrets in Version Control
-- 14.7 Deploying Functions with kubeless
+- 14.7 Deploying Functions with `kubeless`
