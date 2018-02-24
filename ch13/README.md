@@ -2,7 +2,7 @@
 
 ### 13.3 Using A Python Client To Interact With The Kubernetes API
 
-- [podlister.pyl](podlister.py)
+- [podlister.py](https://raw.githubusercontent.com/k8s-cookbook/recipes/master/ch13/podlister.py)
 
 ### 13.4 Extending The API Using Custom Resource Definitions (CRD)
 
