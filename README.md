@@ -30,7 +30,7 @@ This is the place where we provide the recipes and manifests used in the [Kubern
 
 ### 4. Creating and Modifying Fundamental Workloads
 
-[Go to resources](ch04/)
+[Go to resources …](ch04/)
 
 - 4.1 Creating A Deployment Using `kubectl run`
 - 4.2 Creating Objects From File Manifests
