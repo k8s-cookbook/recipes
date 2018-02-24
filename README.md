@@ -1,6 +1,6 @@
-This is the place where we provide the recipes and manifests of the [Kubernetes Cookbook](http://shop.oreilly.com/product/0636920064947.do):
+This is the place where we provide the recipes and manifests of the [Kubernetes Cookbook](http://shop.oreilly.com/product/0636920064947.do), organized along its 14 chapters.
 
-## 1. Getting Started With Kubernetes
+### 1. Getting Started With Kubernetes
 
 - 1.1 Using Kubernetes Without Installation
 - 1.2 Installing the Kubernetes CLI kubectl
@@ -9,7 +9,7 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 - 1.5 Starting your First Application on Minikube
 - 1.6 Accessing the Dashboard in Minikube
 
-## 2. Creating a Kubernetes Cluster
+### 2. Creating a Kubernetes Cluster
 
 - 2.1 Installing kubeadm To Create A Kubernetes Cluster
 - 2.2 Bootstrapping A Kubernetes Cluster Using kubeadm
@@ -20,7 +20,7 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 - 2.7 Creating A Kubernetes Cluster On Google Kubernetes Engine (GKE)
 - 2.8 Creating A Kubernetes Cluster On Azure Container Service (ACS)
 
-## 3. Learning to Use the Kubernetes Client
+### 3. Learning to Use the Kubernetes Client
 
 - 3.1 Listing Resources
 - 3.2 Deleting Resources
@@ -28,7 +28,7 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 - 3.4 Editing Resources With kubectl
 - 3.5 Letting kubectl Explain Resources And Fields
 
-## 4. Creating and Modifying Fundamental Workloads
+### 4. Creating and Modifying Fundamental Workloads
 
 - 4.1 Creating A Deployment Using kubectl run
 - 4.2 Creating Objects From File Manifests
@@ -36,7 +36,7 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 - 4.4 Launching Deployment Using A Manifest
 - 4.5 Updating A Deployment
 
-## 5. Working With Services
+### 5. Working With Services
 
 - 5.1 Creating A Service To Expose Your Application
 - 5.2 Verifying the DNS Entry of a Service
@@ -44,7 +44,7 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 - 5.4 Deploy An Ingress Controller on Minikube
 - 5.5 Making Services Accessible From Outside The Cluster
 
-## 6. Exploring the Kubernetes API and Key Metadata
+### 6. Exploring the Kubernetes API and Key Metadata
 
 - 6.1 Discovering API Endpoints Of The Kubernetes API Server
 - 6.2 Understanding The Structure Of A Kubernetes Manifest
@@ -54,7 +54,7 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 - 6.6 Using Labels For Queries
 - 6.7 Annotating a Resource With One Command
 
-## 7. Managing Specialized Workloads
+### 7. Managing Specialized Workloads
 
 - 7.1 Running A Batch Job
 - 7.2 Running a Task on a Schedule Within a Pod
@@ -62,7 +62,7 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 - 7.4 Managing Stateful and Leader-Follower Apps
 - 7.5 Influencing Pods Startup Behavior
 
-## 8. Volumes and Configuration Data
+### 8. Volumes and Configuration Data
 
 - 8.1 Exchanging Data Between Containers Via A Local Volume
 - 8.2 Passing An API Access Key To A Pod Using A Secret
@@ -71,21 +71,21 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 - 8.5 Understanding Data Persistency on Minikube
 - 8.6 Dynamically Provision Persistent Storage On GKE
 
-## 9. Scaling
+### 9. Scaling
 
 - 9.1 Scaling A Deployment
 - 9.2 Automatically Resizing a Cluster in GKE
 - 9.3 Automatically Resizing a Cluster in AWS
 - 9.4 Using Horizontal Pod Autoscaling on GKE
 
-## 10. Security
+### 10. Security
 
 - 10.1 Providing A Unique Identity For An Application
 - 10.2 Listing And Viewing Access Control Information
 - 10.3 Controlling Access To Resources
 - 10.4 Securing Pods
 
-## 11. Monitoring and Logging
+### 11. Monitoring and Logging
 
 - 11.1 Accessing The Logs of a Container
 - 11.2 Recover From a Broken State With a Liveness Probe
@@ -95,7 +95,7 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 - 11.6 Using Prometheus On Minikube
 - 11.7 Using Elasticsearch-Fluentd-Kibana (EFK) On Minikube
 
-## 12. Maintenance And Troubleshooting
+### 12. Maintenance And Troubleshooting
 
 - 12.1 Enabling Autocomplete For kubectl
 - 12.2 Removing a Pod From a Service
@@ -107,14 +107,14 @@ This is the place where we provide the recipes and manifests of the [Kubernetes 
 - 12.8 Draining Kubernetes Nodes For Maintenance
 - 12.9 Managing etcd
 
-## 13. Developing Kubernetes
+### 13. Developing Kubernetes
 
 - 13.1 Compiling From Source
 - 13.2 Compiling A Specific Component
 - 13.3 Using A Python Client To Interact With The Kubernetes API
 - 13.4 Extending The API Using Custom Resource Definitions (CRD)
 
-## 14. Ecosystem
+### 14. Ecosystem
 
 - 14.1 Installing Helm, The Kubernetes Package Manager
 - 14.2 Using Helm to Install Applications
