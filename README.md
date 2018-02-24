@@ -74,11 +74,11 @@ This is the place where we provide the manifests, scripts, configuration files a
 
 [Go to resources …](ch08/)
 
-- 8.1 Exchanging Data Between Containers Via A Local Volume
-- 8.2 Passing An API Access Key To A Pod Using A Secret
-- 8.3 Providing Configuration Data To An Application
-- 8.4 Using A Persistent Volume With Minikube
-- 8.5 Understanding Data Persistency on Minikube
+- **8.1 Exchanging Data Between Containers Via A Local Volume**
+- **8.2 Passing An API Access Key To A Pod Using A Secret**
+- **8.3 Providing Configuration Data To An Application**
+- **8.4 Using A Persistent Volume With Minikube**
+- **8.5 Understanding Data Persistency on Minikube**
 - 8.6 Dynamically Provision Persistent Storage On GKE
 
 ### 9. Scaling
