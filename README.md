@@ -85,7 +85,7 @@ This is the place where we provide the manifests, scripts, configuration files a
 
 [Go to resources …](ch09/)
 
-- 9.1 Scaling A Deployment
+- **9.1 Scaling A Deployment**
 - 9.2 Automatically Resizing a Cluster in GKE
 - 9.3 Automatically Resizing a Cluster in AWS
 - 9.4 Using Horizontal Pod Autoscaling on GKE
