@@ -50,15 +50,19 @@ This is the place where we provide the manifests, scripts, configuration files a
 
 ### 6. Exploring the Kubernetes API and Key Metadata
 
+[Go to resources …](ch06/)
+
 - 6.1 Discovering API Endpoints Of The Kubernetes API Server
 - 6.2 Understanding The Structure Of A Kubernetes Manifest
 - 6.3 Creating Namespaces To Avoid Name Collisions
-- 6.4 Setting Quotas Within A Namespace
+- **6.4 Setting Quotas Within A Namespace**
 - 6.5 Labelling An Object
 - 6.6 Using Labels For Queries
 - 6.7 Annotating a Resource With One Command
 
 ### 7. Managing Specialized Workloads
+
+[Go to resources …](ch07/)
 
 - 7.1 Running A Batch Job
 - 7.2 Running a Task on a Schedule Within a Pod
@@ -67,6 +71,8 @@ This is the place where we provide the manifests, scripts, configuration files a
 - 7.5 Influencing Pods Startup Behavior
 
 ### 8. Volumes and Configuration Data
+
+[Go to resources …](ch08/)
 
 - 8.1 Exchanging Data Between Containers Via A Local Volume
 - 8.2 Passing An API Access Key To A Pod Using A Secret
@@ -77,6 +83,8 @@ This is the place where we provide the manifests, scripts, configuration files a
 
 ### 9. Scaling
 
+[Go to resources …](ch09/)
+
 - 9.1 Scaling A Deployment
 - 9.2 Automatically Resizing a Cluster in GKE
 - 9.3 Automatically Resizing a Cluster in AWS
@@ -84,12 +92,16 @@ This is the place where we provide the manifests, scripts, configuration files a
 
 ### 10. Security
 
+[Go to resources …](ch10/)
+
 - 10.1 Providing A Unique Identity For An Application
 - 10.2 Listing And Viewing Access Control Information
 - 10.3 Controlling Access To Resources
 - 10.4 Securing Pods
 
 ### 11. Monitoring and Logging
+
+[Go to resources …](ch11/)
 
 - 11.1 Accessing The Logs of a Container
 - 11.2 Recover From a Broken State With a Liveness Probe
@@ -100,6 +112,8 @@ This is the place where we provide the manifests, scripts, configuration files a
 - 11.7 Using Elasticsearch-Fluentd-Kibana (EFK) On Minikube
 
 ### 12. Maintenance And Troubleshooting
+
+[Go to resources …](ch12/)
 
 - 12.1 Enabling Autocomplete For `kubectl`
 - 12.2 Removing a Pod From a Service
@@ -112,6 +126,8 @@ This is the place where we provide the manifests, scripts, configuration files a
 - 12.9 Managing `etcd`
 
 ### 13. Developing Kubernetes
+
+[Go to resources …](ch13/)
 
 - 13.1 Compiling From Source
 - 13.2 Compiling A Specific Component
