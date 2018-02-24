@@ -104,12 +104,12 @@ This is the place where we provide the manifests, scripts, configuration files a
 [Go to resources …](ch11/)
 
 - 11.1 Accessing The Logs of a Container
-- 11.2 Recover From a Broken State With a Liveness Probe
-- 11.3 Control Traffic Flow to a Pod Using a Readiness Probe
-- 11.4 Adding Liveness and Readiness Probes To Your Deployments
+- **11.2 Recover From a Broken State With a Liveness Probe**
+- **11.3 Control Traffic Flow to a Pod Using a Readiness Probe**
+- **11.4 Adding Liveness and Readiness Probes To Your Deployments**
 - 11.5 Enabling Heapster on Minikube To Monitor Resources
-- 11.6 Using Prometheus On Minikube
-- 11.7 Using Elasticsearch-Fluentd-Kibana (EFK) On Minikube
+- **11.6 Using Prometheus On Minikube**
+- **11.7 Using Elasticsearch-Fluentd-Kibana (EFK) On Minikube**
 
 ### 12. Maintenance And Troubleshooting
 
