@@ -20,4 +20,4 @@
 
 ### 11.7 Using Elasticsearch-Fluentd-Kibana (EFK) On Minikube
 
-- [efk-logging.yml](efk-logging.yml)
+- [efk-logging.yml](efk-logging.yaml)
