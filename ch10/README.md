@@ -2,7 +2,7 @@
 
 ### 10.1 Providing A Unique Identity For An Application
 
-- [pod-with-sa.yaml](pod-with-sa.yaml)
+- [simple-pod-with-sa.yaml](simple-pod-with-sa.yaml)
 
 ### 10.3 Controlling Access To Resources
 
