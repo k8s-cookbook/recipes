@@ -1,0 +1,13 @@
+kind:                 Pod
+apiVersion:           v1
+metadata:
+  name:               myapp
+spec:
+  serviceAccountName: myappsa
+  containers:
+  - name:             main
+    image:            centos:7
+    command:
+      - "bin/bash"
+      - "-c"
+      - "sleep 10000"
