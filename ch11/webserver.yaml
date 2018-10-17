@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-name: webserver
+  name: webserver
 spec:
   replicas: 1
   template:
@@ -15,13 +15,13 @@ spec:
         ports:
         - containerPort: 80
         livenessProbe:
-          initialDelaySecond: 2
+          initialDelaySeconds: 2
           periodSeconds: 10
           httpGet:
             path: /
             port: 80
         readinessProbe:
-          initialDelaySecond: 2
+          initialDelaySeconds: 2
           periodSeconds: 10
           httpGet:
             path: /
