@@ -1,14 +1,14 @@
-kind:                 Pod
-apiVersion:           v1
+apiVersion: v1
+kind: Pod
 metadata:
-  name:               myapp
-  namespace:          sec
+  name: myapp
+  namespace: sec
 spec:
   serviceAccountName: myappsa
   containers:
-  - name:             main
-    image:            centos:7
+  - name: main
+    image: busybox:1.36
     command:
-      - "bin/bash"
+      - "sh"
       - "-c"
       - "sleep 10000"

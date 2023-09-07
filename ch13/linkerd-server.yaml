@@ -1,0 +1,11 @@
+apiVersion: policy.linkerd.io/v1beta1
+kind: Server
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  podSelector:
+    matchLabels:
+      app: nginx
+  port: 80

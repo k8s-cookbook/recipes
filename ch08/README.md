@@ -1,20 +1,19 @@
 [Home](../)
 
-### 8.1 Exchanging Data Between Containers Via A Local Volume
+### 8.1 Exchanging Data Between Containers via a Local Volume
 
-- [exchange.yaml](exchange.yaml)
+- [exchangedata.yaml](exchangedata.yaml)
 
-### 8.2 Passing An API Access Key To A Pod Using A Secret
+### 8.2 Passing an API Access Key to a Pod Using a Secret
 
 - [ppconsumer.yaml](ppconsumer.yaml)
 
-### 8.3 Providing Configuration Data To An Application
+### 8.3 Providing Configuration Data to an Application
 
-- [cmapp.yaml](cmapp.yaml)
 - [example.cfg](example.cfg)
-- [cmconsumer.yaml](cmconsumer.yaml)
+- [nginxpod.yaml](nginxpod.yaml)
 
-### 8.4 Using A Persistent Volume With Minikube
+### 8.4 Using a Persistent Volume with Minikube
 
 - [hostpath-pv.yaml](hostpath-pv.yaml)
 - [pvc.yaml](pvc.yaml)

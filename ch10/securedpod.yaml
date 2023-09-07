@@ -1,14 +1,14 @@
-kind:                Pod
-apiVersion:          v1
+kind: Pod
+apiVersion: v1
 metadata:
-  name:              secpod
+  name: secpod
 spec:
   containers:
-  - name:            shell
-    image:           centos:7
+  - name: shell
+    image: ubuntu:20.04
     command:
       - "bin/bash"
       - "-c"
       - "sleep 10000"
     securityContext:
-      runAsUser:     5000
+      runAsUser: 5000

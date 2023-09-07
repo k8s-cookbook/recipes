@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/keyrings/k8s-archive-keyring.gpg] https://apt.kubernetes.io/kubernetes-xenial main

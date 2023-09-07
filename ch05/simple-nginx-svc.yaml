@@ -1,9 +1,9 @@
-kind:       Service
+kind: Service
 apiVersion: v1
 metadata:
-  name:     webserver
+  name: webserver
 spec:
   ports:
-  - port:   80
+  - port: 80
   selector:
-    app:    nginx
+    app: nginx

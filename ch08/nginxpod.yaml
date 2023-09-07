@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.25.2
+    env:
+    - name: NGINX_GREETING
+      valueFrom:
+        configMapKeyRef:
+          name: nginxconfig
+          key: nginxgreeting

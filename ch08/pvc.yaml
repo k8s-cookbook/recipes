@@ -1,11 +1,11 @@
-kind:               PersistentVolumeClaim
-apiVersion:         v1
+apiVersion: v1
+kind: PersistentVolumeClaim
 metadata:
-  name:             mypvc
+  name: mypvc
 spec:
   storageClassName: manual
   accessModes:
   - ReadWriteOnce
   resources:
     requests:
-      storage:      200Mi
+      storage: 200Mi

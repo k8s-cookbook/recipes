@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: hourly-date
+spec:
+  schedule: "0 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: date
+            image: busybox:1.36
+            command:
+              - "sh"
+              - "-c"
+              - "date"
+          restartPolicy: OnFailure

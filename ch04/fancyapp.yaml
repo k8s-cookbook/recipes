@@ -1,20 +1,23 @@
-apiVersion:       extensions/v1beta1
-kind:             Deployment
+apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name:           fancyapp
+  name: fancyapp
 spec:
-  replicas:       5
+  replicas: 5
+  selector:
+    matchLabels:
+      app: fancy
   template:
     metadata:
       labels:
-        app:      fancy
-        env:      development
+        app: fancy
+        env: development
     spec:
       containers:
-      - name:     sise
-        image:    mhausenblas/simpleservice:0.5.0
+      - name: sise
+        image: gcr.io/google-samples/hello-app:2.0
         ports:
-        - containerPort: 9876
+        - containerPort: 8080
         env:
-        - name:   SIMPLE_SERVICE_VERSION
-          value:  "0.9"
+        - name: SIMPLE_SERVICE_VERSION
+          value: "2.0"

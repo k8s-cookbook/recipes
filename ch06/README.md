@@ -1,5 +1,6 @@
 [Home](../)
 
-### 6.4 Setting Quotas Within A Namespace
+### 6.13 Deploying YAML Manifests using Kapp
 
-- [resource-quota-pods.yaml](resource-quota-pods.yaml)
+- [manifests/deploy.yaml](manifests/deploy.yaml)
+- [manifests/svc.yaml](manifests/svc.yaml)

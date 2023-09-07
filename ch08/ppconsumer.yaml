@@ -1,20 +1,20 @@
-apiVersion:        v1
-kind:              Pod
+apiVersion: v1
+kind: Pod
 metadata:
-  name:            ppconsumer
+  name: ppconsumer
 spec:
   containers:
-  - name:          shell
-    image:         busybox
+  - name: shell
+    image: busybox:1.36
     command:
       - "sh"
       - "-c"
       - "mount | grep access  && sleep 3600"
     volumeMounts:
-      - name:      passphrase
+      - name: passphrase
         mountPath: "/tmp/access"
-        readOnly:  true
+        readOnly: true
   volumes:
-  - name:          passphrase
+  - name: passphrase
     secret:
-      secretName:  pp
+      secretName: pp

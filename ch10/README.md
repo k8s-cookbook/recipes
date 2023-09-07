@@ -1,10 +1,10 @@
 [Home](../)
 
-### 10.1 Providing A Unique Identity For An Application
+### 10.1 Providing a Unique Identity for an Application
 
-- [simple-pod-with-sa.yaml](simple-pod-with-sa.yaml)
+- [serviceaccountpod.yaml](serviceaccountpod.yaml)
 
-### 10.3 Controlling Access To Resources
+### 10.3 Controlling Access to Resources
 
 - [pod-with-sa.yaml](pod-with-sa.yaml)
 - [pod-reader.yaml](pod-reader.yaml)

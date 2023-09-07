@@ -1,23 +1,26 @@
-kind:                          Deployment
-apiVersion:                    extensions/v1beta1
+apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name:                        nginx-with-pv
+  name: nginx-with-pv
 spec:
-  replicas:                    1
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
   template:
     metadata:
       labels:
-        app:                   nginx
+        app: nginx
     spec:
       containers:
-      - name:                  webserver
-        image:                 nginx
+      - name: webserver
+        image: nginx:1.25.2
         ports:
-        - containerPort:       80
+        - containerPort: 80
         volumeMounts:
-        - mountPath:           "/usr/share/nginx/html"
-          name:                webservercontent
+        - mountPath: "/usr/share/nginx/html"
+          name: webservercontent
       volumes:
-      - name:                  webservercontent
+      - name: webservercontent
         persistentVolumeClaim:
-          claimName:           mypvc
+          claimName: mypvc

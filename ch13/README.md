@@ -1,10 +1,21 @@
 [Home](../)
 
-### 13.3 Using A Python Client To Interact With The Kubernetes API
+### 13.1 Installing the Istio service mesh
 
-- [podlister.py](https://raw.githubusercontent.com/k8s-cookbook/recipes/master/ch13/podlister.py)
+- [istio-demo-config.yaml](istio-demo-config.yaml)
 
-### 13.4 Extending The API Using Custom Resource Definitions (CRD)
+### 13.3 Routing traffic using an Istio virtual service
 
-- [functions-crd.yaml](functions-crd.yaml)
-- [myfaas.yaml](myfaas.yaml)
+- [virtualservice.yaml](virtualservice.yaml)
+
+### 13.4 Rewriting a URL using an Istio Virtual Service
+
+- [virtualservice-rewrite.yaml](virtualservice-rewrite.yaml)
+
+### 13.7 Routing traffic to a service in Linkerd
+
+- [linkerd-server.yaml](linkerd-server.yaml)
+
+### 13.8 Authorizing traffic to the server in Linkerd
+
+- [linkerd-auth-policy.yaml](linkerd-auth-policy.yaml)

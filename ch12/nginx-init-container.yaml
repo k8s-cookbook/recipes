@@ -1,0 +1,25 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: webserver
+        image: nginx:1.25.2
+        ports:
+        - containerPort: 80
+      initContainers:
+      - name: checkbackend
+        image: busybox:1.36
+        command: ['sh', '-c', 'until nc -w 5 backend.default.svc.cluster.local 80; do echo
+                 "Waiting for backend to accept connections"; sleep 3; done; echo
+                 "Backend is up, ready to launch web server"']

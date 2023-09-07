@@ -1,0 +1,9 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: nodeinfo
+spec:
+  template:
+    spec:
+      containers:
+        - image: functions/nodeinfo:latest

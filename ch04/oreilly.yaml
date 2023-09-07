@@ -1,8 +1,8 @@
-apiVersion:   v1
-kind:         Pod
+apiVersion: v1
+kind: Pod
 metadata:
-  name:       oreilly
+  name: oreilly
 spec:
   containers:
-  - name:     oreilly
-    image:    nginx
+  - name: oreilly
+    image: nginx:1.25.2

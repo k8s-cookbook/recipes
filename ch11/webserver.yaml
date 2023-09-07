@@ -1,9 +1,12 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: webserver
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
   template:
     metadata:
       labels:
@@ -11,18 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:stable    
+        image: nginx:1.25.2
         ports:
         - containerPort: 80
-        livenessProbe:
-          initialDelaySeconds: 2
-          periodSeconds: 10
-          httpGet:
-            path: /
-            port: 80
-        readinessProbe:
-          initialDelaySeconds: 2
-          periodSeconds: 10
-          httpGet:
-            path: /
-            port: 80

@@ -1,17 +1,20 @@
-apiVersion:       extensions/v1beta1
-kind:             Deployment
+apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name:           unhappy
+  name: unhappy
 spec:
-  replicas:       1
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nevermind
   template:
     metadata:
       labels:
-        app:      nevermind
+        app: nevermind
     spec:
       containers:
-      - name:     shell
-        image:    busybox
+      - name: shell
+        image: busybox:1.36
         command:
         - "sh"
         - "-c"

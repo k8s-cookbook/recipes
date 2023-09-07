@@ -1,27 +1,27 @@
-apiVersion:        v1
-kind:              Pod
+apiVersion: v1
+kind: Pod
 metadata:
-  name:            sharevol
+  name: sharevol
 spec:
   containers:
-  - name:          c1
-    image:         centos:7
+  - name: c1
+    image: ubuntu:20.04
     command:
       - "bin/bash"
       - "-c"
       - "sleep 10000"
     volumeMounts:
-      - name:      xchange
+      - name: xchange
         mountPath: "/tmp/xchange"
-  - name:          c2
-    image:         centos:7
+  - name: c2
+    image: ubuntu:20.04
     command:
       - "bin/bash"
       - "-c"
       - "sleep 10000"
     volumeMounts:
-      - name:      xchange
+      - name: xchange
         mountPath: "/tmp/data"
   volumes:
-  - name:          xchange
-    emptyDir:      {}
+  - name: xchange
+    emptyDir: {}
